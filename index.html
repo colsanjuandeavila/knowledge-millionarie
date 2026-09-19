@@ -70,14 +70,6 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
 .btn.danger{border-color:var(--bad)}
 .btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
 
-.bank{font-size:.9rem;color:var(--muted)}
-.loader{width:min(640px,100%);text-align:left;background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:14px;padding:4px 16px}
-.loader summary{cursor:pointer;padding:12px 0;font-weight:600}
-.loader .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 12px}
-.loader textarea{width:100%;min-height:110px;border-radius:10px;border:1px solid var(--line);background:rgba(0,0,0,.35);color:var(--text);padding:10px;font:0.82rem/1.4 ui-monospace,Menlo,Consolas,monospace}
-.loader pre{overflow-x:auto;background:rgba(0,0,0,.35);border-radius:10px;padding:12px;font-size:.78rem;line-height:1.45;margin:8px 0 14px}
-.msg{font-size:.9rem;margin:8px 0}
-.msg.err{color:#ff9d9d}.msg.ok{color:#8dffb1}
 
 
 /* Grade + course setup */
@@ -194,7 +186,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
 </head>
 <body>
 
-<!-- Built-in question bank (from the school's BTO and PRIMARIA files). Replace this block or use "Load my questions" on the start screen.
+<!-- Built-in question bank (from the school's BTO and PRIMARIA files). To change the questions, edit this block.
      Format: { "level": 1-15, "grade": "2 - 3", "subject": "Maths", "question": "...", "options": ["A","B","C","D"], "correct": 0-3 (or "A"-"D"), "explanation": "optional" } -->
 <script type="application/json" id="banco-preguntas">
 [
@@ -547,31 +539,6 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
   </div>
   <button class="btn" id="btn-start" disabled>Start the game</button>
   <div class="hint" id="start-hint" role="status" aria-live="polite"></div>
-  <div class="bank" id="bank-info"></div>
-
-  <details class="loader">
-    <summary>Load my questions</summary>
-    <div class="row">
-      <label class="btn small ghost" for="file-json" style="cursor:pointer">Choose a .json file</label>
-      <input id="file-json" type="file" accept=".json,application/json" hidden>
-      <span class="bank">or paste the contents below</span>
-    </div>
-    <textarea id="txt-json" placeholder='[ { "level": 1, "question": "...", "options": ["A","B","C","D"], "correct": 0 } ]' aria-label="Questions JSON"></textarea>
-    <div class="row"><button class="btn small" id="btn-load">Use these questions</button></div>
-    <div class="msg" id="load-msg" role="status"></div>
-    <p class="bank" style="margin:0 0 6px">Accepted format:</p>
-<pre>[
-  {
-    "level": 1,
-    "grade": "4 - 5",
-    "question": "What is the capital of France?",
-    "options": ["Madrid", "Paris", "Rome", "Lisbon"],
-    "correct": 1,
-    "explanation": "Optional."
-  }
-]</pre>
-    <p class="bank" style="margin:0 0 12px">"level" (1 = easiest to 15 = hardest) sets the order in which questions appear. "level", "grade", "subject" (shown above the question) and "explanation" are optional. Every question available for the chosen grade is asked in each game. "grade" can be one of the six options or a list, for example ["2 - 3", "4 - 5"]; questions without a grade appear for every grade. "correct" is an index from 0 to 3, or a letter from "A" to "D".</p>
-  </details>
 </main>
 
 <!-- ===== Game screen ===== -->
@@ -682,7 +649,6 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
 
   /* ---------------- Banco de preguntas ---------------- */
   let pool = [];
-  let origen = 'built-in bank';
 
   function normalizar(raw){
     const arr = Array.isArray(raw) ? raw : (raw && (raw.questions ?? raw.preguntas));
@@ -719,33 +685,12 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     return { preguntas: out, errores };
   }
 
-  function cargarBanco(raw, etiqueta){
+  function cargarBanco(raw){
     const { preguntas, errores } = normalizar(raw);
     if (!preguntas.length) throw new Error(errores.length ? errores.slice(0, 5).join(' ') : 'No questions found.');
     pool = preguntas;
-    origen = etiqueta;
-    actualizarInfoBanco();
     validarInicio();
     return errores;
-  }
-
-  function actualizarInfoBanco(){
-    $('#bank-info').textContent = 'Question bank: ' + pool.length + ' questions (' + origen + ').';
-  }
-
-  function mostrarMsg(texto, ok){
-    const m = $('#load-msg');
-    m.className = 'msg ' + (ok ? 'ok' : 'err');
-    m.textContent = texto;
-  }
-
-  function intentarCargar(texto, etiqueta){
-    try{
-      const errores = cargarBanco(JSON.parse(texto), etiqueta);
-      mostrarMsg('Done: ' + pool.length + ' questions loaded.' + (errores.length ? ' ' + errores.length + ' skipped because of errors. ' + errores.slice(0, 3).join(' ') : ''), true);
-    }catch(e){
-      mostrarMsg('Could not load: ' + e.message, false);
-    }
   }
 
   /* ---------------- Estado del juego ---------------- */
@@ -1143,23 +1088,8 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     e.currentTarget.setAttribute('aria-pressed', String(mute));
   });
 
-  $('#file-json').addEventListener('change', e => {
-    const f = e.target.files[0];
-    if (!f) return;
-    const r = new FileReader();
-    r.onload = () => { $('#txt-json').value = r.result; intentarCargar(r.result, 'file ' + f.name); };
-    r.onerror = () => mostrarMsg('Could not read the file.', false);
-    r.readAsText(f);
-  });
-  $('#btn-load').addEventListener('click', () => {
-    const t = $('#txt-json').value.trim();
-    if (!t) return mostrarMsg('Paste the JSON first or choose a file.', false);
-    intentarCargar(t, 'pasted text');
-  });
-
   document.addEventListener('keydown', e => {
     if ($('#scr-game').hidden || (G && G.modal)) return;
-    if (e.target.tagName === 'TEXTAREA') return;
     const k = e.key.toUpperCase();
     if ('ABCD'.includes(k) && k.length === 1) seleccionar('ABCD'.indexOf(k));
   });
@@ -1173,9 +1103,9 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
   document.title = CONFIG.titulo;
   $('#titulo').textContent = CONFIG.titulo;
   try{
-    cargarBanco(JSON.parse($('#banco-preguntas').textContent), 'built-in bank');
+    cargarBanco(JSON.parse($('#banco-preguntas').textContent));
   }catch(e){
-    $('#bank-info').textContent = 'Could not read the built-in question bank: ' + e.message;
+    $('#start-hint').textContent = 'Could not read the question bank: ' + e.message;
   }
 })();
 </script>

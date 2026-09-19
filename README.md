@@ -10,7 +10,7 @@ Todo el juego está en un solo archivo: `index.html`.
 | Archivo | Para qué sirve |
 |---|---|
 | `index.html` | El juego completo (preguntas, logo y estilos incluidos). **Es el único obligatorio.** |
-| `questions.json` | Copia del banco de preguntas, para editarlo y cargarlo. |
+| `questions.json` | Copia del banco de preguntas (respaldo y referencia del formato). |
 | `logo-knowledge-millionaire.svg` | El logo como archivo aparte (el juego ya lo trae dentro). |
 
 ## Publicar con GitHub Pages
@@ -22,13 +22,10 @@ Todo el juego está en un solo archivo: `index.html`.
 
 ## Cambiar las preguntas
 
-**Solo para una sesión (sin tocar el código):** en la pantalla de inicio abre
-"Load my questions", elige un `.json` o pega el contenido, y pulsa "Use these questions".
-Al recargar la página vuelve el banco incluido.
-
-**De forma permanente:** en `index.html`, reemplaza el contenido del bloque
-`<script type="application/json" id="banco-preguntas"> ... </script>`
-por tu JSON.
+Las preguntas están dentro de `index.html`, en el bloque
+`<script type="application/json" id="banco-preguntas"> ... </script>`.
+Para agregar o corregir preguntas, edita ese bloque (o pide el archivo actualizado) y vuelve a subir `index.html` al repositorio.
+Mantén `questions.json` al día con los mismos cambios, como respaldo.
 
 ### Formato de cada pregunta
 
