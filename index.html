@@ -152,7 +152,8 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
 .verdict{text-align:center;font-family:var(--serif);font-weight:800;font-size:1.2rem;margin-top:14px;color:var(--gold2)}
 
 /* Escalera de premios */
-.ladder{list-style:none;margin:0;padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(0,0,0,.28);display:flex;flex-direction:column-reverse;gap:3px}
+.ladder{list-style:none;margin:0;padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(0,0,0,.28);display:flex;flex-direction:column;gap:3px;position:relative;max-height:min(72vh,620px);overflow-y:auto}
+.side{position:sticky;top:16px}
 .ladder li{display:flex;justify-content:space-between;gap:8px;padding:6px 12px;border-radius:8px;font-size:.95rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .ladder li .n{opacity:.8;min-width:1.6em}
 .ladder li.safe{color:var(--text);font-weight:600}
@@ -531,7 +532,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
 </svg>
   </div>
   <h1 class="title" id="titulo">Who Wants to Be a Knowledge Millionaire?</h1>
-  <p class="lead">Answer 15 multiple-choice science and maths questions to win the top prize. You have three lifelines: 50:50, Phone a Friend and Ask the Audience.</p>
+  <p class="lead">Answer every science and maths question for your grade to win the top prize. You have three lifelines: 50:50, Phone a Friend and Ask the Audience.</p>
   <div class="setup">
     <div class="field">
       <label for="sel-grade">Grade</label>
@@ -569,7 +570,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     "explanation": "Optional."
   }
 ]</pre>
-    <p class="bank" style="margin:0 0 12px">"level" (1 to 15), "grade", "subject" (shown above the question) and "explanation" are optional. "grade" can be one of the six options or a list, for example ["2 - 3", "4 - 5"]; questions without a grade appear for every grade. "correct" is an index from 0 to 3, or a letter from "A" to "D".</p>
+    <p class="bank" style="margin:0 0 12px">"level" (1 = easiest to 15 = hardest) sets the order in which questions appear. "level", "grade", "subject" (shown above the question) and "explanation" are optional. Every question available for the chosen grade is asked in each game. "grade" can be one of the six options or a list, for example ["2 - 3", "4 - 5"]; questions without a grade appear for every grade. "correct" is an index from 0 to 3, or a letter from "A" to "D".</p>
   </details>
 </main>
 
@@ -586,7 +587,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
           <svg viewBox="0 0 24 24"><path d="M4 20V11M10 20V4M16 20v-7M22 20H2"/></svg>
         </button>
       </div>
-      <div class="status"><span class="player-tag" id="st-player"></span><span id="st-q">Question 1 of 15</span><b id="st-prize">For £100</b></div>
+      <div class="status"><span class="player-tag" id="st-player"></span><span id="st-q">Question 1</span><b id="st-prize">For £100</b></div>
       <div class="tools">
         <button class="iconbtn only-mobile" id="btn-ladder">Prizes</button>
         <button class="iconbtn" id="btn-walk">Walk away</button>
@@ -636,14 +637,15 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
   const CONFIG = {
     titulo: 'Who Wants to Be a Knowledge Millionaire?',
     moneda: '£',
-    premios: [100,200,300,500,1000,2000,4000,8000,16000,32000,64000,125000,250000,500000,1000000],
-    seguros: [5,10],          // niveles con premio asegurado (1 = primera pregunta)
+    premioInicial: 100,       // premio de la primera pregunta
+    premioFinal: 1000000,     // premio de la última pregunta (la escalera se ajusta al número de preguntas del grado)
+    seguros: [1/3, 2/3],      // premios asegurados, como fracción del total de preguntas
     tiempo: 0,                // segundos por pregunta (0 = sin límite)
     mezclarOpciones: true,    // baraja el orden de las respuestas en cada pregunta
     amigos: ['Oliver','Amelia','Uncle Jack','Charlotte','Mum','Harry']
   };
 
-  const N = CONFIG.premios.length;
+  const NIVELES = 15;       // escala del campo "level" de las preguntas (1 = fácil ... 15 = difícil)
   const $ = s => document.querySelector(s);
   const money = v => CONFIG.moneda + Number(v).toLocaleString('en-GB');
   const LETRAS = ['A','B','C','D'];
@@ -699,7 +701,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
       }
       if (!Number.isInteger(c) || c < 0 || c > 3) return errores.push(tag + '"correct" must be an index from 0 to 3 or a letter from A to D.');
       let nivel = Number(q.level ?? q.nivel);
-      if (!Number.isInteger(nivel) || nivel < 1 || nivel > N) nivel = Math.min(N, Math.floor(i * N / arr.length) + 1);
+      if (!Number.isInteger(nivel) || nivel < 1 || nivel > NIVELES) nivel = Math.min(NIVELES, Math.floor(i * NIVELES / arr.length) + 1);
       const exp = q.explanation ?? q.explicacion;
       let grados = null;
       const gr = q.grade ?? q.grades ?? q.grado;
@@ -728,8 +730,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
   }
 
   function actualizarInfoBanco(){
-    const niveles = new Set(pool.map(q => q.nivel)).size;
-    $('#bank-info').textContent = 'Question bank: ' + pool.length + ' questions (' + origen + '), ' + niveles + ' of ' + N + ' levels covered.';
+    $('#bank-info').textContent = 'Question bank: ' + pool.length + ' questions (' + origen + ').';
   }
 
   function mostrarMsg(texto, ok){
@@ -753,7 +754,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
   function nuevoJuego(){
     G = {
       nivel: 0,                 // preguntas respondidas correctamente
-      usadas: new Set(),
+      secuencia: [], premios: [], seguros: [], total: 0,
       ayudas: { c50: false, llamada: false, publico: false }, // true = ya usada
       q: null, opts: [], removed: new Set(),
       sel: null, estado: 'inicio',
@@ -761,17 +762,26 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     };
   }
 
-  function elegirPregunta(nivel){
-    const libres = G.pool.filter(q => !G.usadas.has(q));
-    let cand = libres.filter(q => q.nivel === nivel);
-    for (let d = 1; !cand.length && d <= N; d++){
-      cand = libres.filter(q => q.nivel === nivel - d || q.nivel === nivel + d);
+  /* Prize ladder scaled to the number of questions in the game (2 significant figures) */
+  function construirEscalera(total){
+    const a = CONFIG.premioInicial, b = CONFIG.premioFinal, out = [];
+    for (let i = 0; i < total; i++){
+      let p;
+      if (i === 0) p = a;
+      else if (i === total - 1) p = b;
+      else {
+        const raw = a * Math.pow(b / a, i / (total - 1));
+        const mag = Math.pow(10, Math.max(0, Math.floor(Math.log10(raw)) - 1));
+        p = Math.round(raw / mag) * mag;
+        if (p <= out[i - 1]) p = out[i - 1] + mag;
+      }
+      out.push(p);
     }
-    if (!cand.length){ G.usadas.clear(); cand = G.pool.filter(q => q.nivel === nivel); if (!cand.length) cand = G.pool; }
-    const q = cand[rnd(cand.length)];
-    G.usadas.add(q);
-    return q;
+    return out;
   }
+
+  /* Progress from 0 (first question) to 14 (last), used to scale the lifelines' accuracy */
+  const progreso = () => G.nivel / Math.max(1, G.total - 1) * 14;
 
   /* ---------------- Pantallas ---------------- */
   function pantalla(id){
@@ -780,23 +790,28 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
   }
 
   /* ---------------- Escalera ---------------- */
+  function centrarEscalera(ol){
+    const cur = ol.querySelector('.cur');
+    if (cur) ol.scrollTop = Math.max(0, cur.offsetTop - ol.clientHeight / 2 + cur.offsetHeight / 2);
+  }
+
   function pintarEscalera(ol){
     ol.innerHTML = '';
-    CONFIG.premios.forEach((p, i) => {
-      const nivel = i + 1;
+    for (let nivel = G.total; nivel >= 1; nivel--){
       const li = document.createElement('li');
-      if (CONFIG.seguros.includes(nivel)) li.classList.add('safe');
+      if (G.seguros.includes(nivel)) li.classList.add('safe');
       if (nivel <= G.nivel) li.classList.add('done');
       if (nivel === G.nivel + 1) li.classList.add('cur');
-      li.innerHTML = '<span class="n">' + nivel + '</span><span class="v">' + money(p) + '</span>';
+      li.innerHTML = '<span class="n">' + nivel + '</span><span class="v">' + money(G.premios[nivel - 1]) + '</span>';
       ol.appendChild(li);
-    });
+    }
+    centrarEscalera(ol);
   }
   const refrescarEscalera = () => pintarEscalera($('#ladder'));
 
   /* ---------------- Render de pregunta ---------------- */
   function cargarPregunta(){
-    const q = elegirPregunta(G.nivel + 1);
+    const q = G.secuencia[G.nivel];
     G.q = q; G.sel = null; G.removed = new Set(); G.estado = 'esperando';
     G.opts = q.ops.map((t, i) => ({ t, ok: i === q.c }));
     if (CONFIG.mezclarOpciones) shuffle(G.opts);
@@ -806,8 +821,8 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     $('#verdict').textContent = '';
     $('#explain').textContent = '';
     $('#actions').innerHTML = '';
-    $('#st-q').textContent = 'Question ' + (G.nivel + 1) + ' of ' + N;
-    $('#st-prize').textContent = 'For ' + money(CONFIG.premios[G.nivel]);
+    $('#st-q').textContent = 'Question ' + (G.nivel + 1) + ' of ' + G.total;
+    $('#st-prize').textContent = 'For ' + money(G.premios[G.nivel]);
 
     const cont = $('#options');
     cont.innerHTML = '';
@@ -873,12 +888,12 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
       G.nivel++;
       refrescarEscalera();
       sfx.ok();
-      if (G.nivel >= N){
+      if (G.nivel >= G.total){
         $('#verdict').textContent = 'Correct!';
         b.textContent = 'See result';
         b.addEventListener('click', () => terminar('gana'));
       } else {
-        $('#verdict').textContent = 'Correct! You now have ' + money(CONFIG.premios[G.nivel - 1]);
+        $('#verdict').textContent = 'Correct! You now have ' + money(G.premios[G.nivel - 1]);
         b.textContent = 'Next question';
         b.addEventListener('click', cargarPregunta);
       }
@@ -897,7 +912,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
   /* ---------------- Fin de juego ---------------- */
   function premioSeguro(){
     let p = 0;
-    CONFIG.seguros.forEach(s => { if (s <= G.nivel) p = Math.max(p, CONFIG.premios[s - 1]); });
+    G.seguros.forEach(s => { if (s <= G.nivel) p = Math.max(p, G.premios[s - 1]); });
     return p;
   }
 
@@ -906,13 +921,13 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     G.estado = 'fin';
     let titulo, premio, texto;
     if (modo === 'gana'){
-      titulo = 'You did it!'; premio = CONFIG.premios[N - 1];
-      texto = 'You answered all ' + N + ' questions correctly and take home the top prize.';
+      titulo = 'You did it!'; premio = G.premios[G.total - 1];
+      texto = 'You answered all ' + G.total + ' questions correctly and take home the top prize.';
       sfx.win();
     } else if (modo === 'retiro'){
       titulo = 'You walked away';
-      premio = G.nivel > 0 ? CONFIG.premios[G.nivel - 1] : 0;
-      texto = 'You answered ' + G.nivel + ' of ' + N + ' questions and keep what you have won.';
+      premio = G.nivel > 0 ? G.premios[G.nivel - 1] : 0;
+      texto = 'You answered ' + G.nivel + ' of ' + G.total + ' questions and keep what you have won.';
     } else {
       titulo = 'Game over'; premio = premioSeguro();
       texto = premio > 0
@@ -1006,7 +1021,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     if (G.ayudas.llamada) return;
     G.ayudas.llamada = true; sfx.life(); refrescarAyudas();
     const activas = opcionesActivas(), ok = idxCorrecta();
-    const pAcierto = Math.max(.45, .97 - G.nivel * .035);
+    const pAcierto = Math.max(.45, .97 - progreso() * .035);
     const otras = activas.filter(i => i !== ok);
     const eleccion = (Math.random() < pAcierto || !otras.length) ? ok : otras[rnd(otras.length)];
     const L = LETRAS[eleccion];
@@ -1027,7 +1042,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     if (G.ayudas.publico) return;
     G.ayudas.publico = true; sfx.life(); refrescarAyudas();
     const activas = opcionesActivas(), ok = idxCorrecta();
-    let base = Math.max(.32, .88 - G.nivel * .04) + (Math.random() * .1 - .05);
+    let base = Math.max(.32, .88 - progreso() * .04) + (Math.random() * .1 - .05);
     if (activas.length === 2) base = Math.min(.95, .5 + base / 2);
     base = Math.min(.95, Math.max(.25, base));
     const otras = activas.filter(i => i !== ok);
@@ -1051,7 +1066,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
   /* ---------------- Retirarse ---------------- */
   function pedirRetiro(){
     if (!(G.estado === 'esperando' || G.estado === 'seleccionada')) return;
-    const gana = G.nivel > 0 ? CONFIG.premios[G.nivel - 1] : 0;
+    const gana = G.nivel > 0 ? G.premios[G.nivel - 1] : 0;
     const p = document.createElement('p');
     p.style.margin = 0; p.style.lineHeight = 1.5;
     p.textContent = 'If you walk away now, you take home ' + money(gana) + '. If you carry on and get it wrong, you only keep your last safe-haven prize (' + money(premioSeguro()) + ').';
@@ -1065,6 +1080,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     const ol = document.createElement('ol'); ol.className = 'ladder';
     pintarEscalera(ol);
     abrirModal('Prizes', ol);
+    centrarEscalera(ol);
   }
 
   /* ---------------- Eventos ---------------- */
@@ -1088,7 +1104,7 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     } else if (!jug){
       hint.textContent = 'Choose your grade and type your course to start.';
     } else {
-      hint.textContent = n + ' questions available for this grade.';
+      hint.textContent = 'This game has ' + n + ' questions for your grade.';
     }
   }
 
@@ -1099,8 +1115,13 @@ h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(1.9rem,6vw,3.4
     if (!jug) return validarInicio();
     nuevoJuego();
     G.player = jug;
-    G.pool = preguntasParaGrado(jug.key);
-    if (!G.pool.length) return validarInicio();
+    const base = preguntasParaGrado(jug.key);
+    if (!base.length) return validarInicio();
+    // every question of the grade, easiest level first (random order inside each level)
+    G.secuencia = shuffle(base.slice()).sort((x, y) => x.nivel - y.nivel);
+    G.total = G.secuencia.length;
+    G.premios = construirEscalera(G.total);
+    G.seguros = [...new Set(CONFIG.seguros.map(f => Math.round(f * G.total)))].filter(v => v >= 1 && v < G.total);
     $('#st-player').textContent = etiquetaJugador(jug);
     pantalla('#scr-game');
     cargarPregunta();

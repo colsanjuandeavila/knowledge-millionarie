@@ -3,6 +3,8 @@
 Juego de preguntas de ciencias y matemáticas, estilo "¿Quién quiere ser millonario?".
 Todo el juego está en un solo archivo: `index.html`.
 
+**Cada partida usa todas las preguntas disponibles para el grado elegido** (por ejemplo, 60 en 2 - 3), ordenadas de más fáciles a más difíciles. La escalera de premios se ajusta sola al número de preguntas: empieza en £100 y termina en £1,000,000, con dos premios asegurados (a 1/3 y 2/3 del recorrido).
+
 ## Archivos
 
 | Archivo | Para qué sirve |
@@ -42,7 +44,7 @@ por tu JSON.
 }
 ```
 
-- `level` (1 a 15, opcional): posición en la escalera de premios. Puede haber varias preguntas por nivel; el juego elige una al azar.
+- `level` (1 a 15, opcional): dificultad, de 1 (fácil) a 15 (difícil). Solo define el orden: las preguntas de nivel bajo salen primero, y dentro del mismo nivel el orden es aleatorio. Puede haber muchas preguntas por nivel.
 - `grade` (opcional): `"Pre school - 1"`, `"2 - 3"`, `"4 - 5"`, `"6 - 7"`, `"8 - 9"` o `"11"`. También acepta una lista, por ejemplo `["2 - 3", "4 - 5"]`. Sin `grade`, la pregunta sale en todos los grados.
 - `subject` (opcional): etiqueta que se muestra sobre la pregunta, por ejemplo `"Maths"` o `"Science"`.
 - `question` y `options` (exactamente 4): obligatorios.
@@ -54,7 +56,7 @@ Las respuestas se barajan en cada partida, así que el orden de `options` no imp
 ## Ajustes rápidos
 
 Al inicio del `<script>` de `index.html` está el objeto `CONFIG`:
-premios, moneda (`£`), niveles asegurados (5 y 10), tiempo por pregunta (`0` = sin límite)
+premio inicial y final, moneda (`£`), premios asegurados (fracciones del total: `1/3` y `2/3`), tiempo por pregunta (`0` = sin límite)
 y nombres de los amigos de la ayuda "Phone a Friend".
 Las opciones del selector de grado están en la constante `GRADES`.
 
