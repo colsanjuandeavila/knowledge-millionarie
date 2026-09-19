@@ -1,0 +1,3447 @@
+[
+ {
+  "level": 1,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which number is the greatest?",
+  "options": [
+   "245",
+   "425",
+   "254",
+   "245"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "What is the name of the geometric figure that has exactly 3 sides and 3 vertices?",
+  "options": [
+   "Square",
+   "Triangle",
+   "Rectangle",
+   "Pentagon"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "What number is formed if you have 4 hundreds, 7 tens, and 9 ones?",
+  "options": [
+   "497",
+   "794",
+   "974",
+   "479"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 2,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "What is 145 + 232?",
+  "options": [
+   "367",
+   "377",
+   "357",
+   "387"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 2,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Observe the following number sequence: 4, 8, 12, 16, ___. What number comes next?",
+  "options": [
+   "18",
+   "22",
+   "20",
+   "24"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 2,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "How many vertices (corners) does a rectangle have?",
+  "options": [
+   "3",
+   "5",
+   "4",
+   "8"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 3,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "What geometric shape has 4 sides of equal length and 4 vertices?",
+  "options": [
+   "Square",
+   "Triangle",
+   "Circle",
+   "Pentagon"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 3,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "How do you write the number \"four thousand two hundred five\"?",
+  "options": [
+   "4250",
+   "4025",
+   "4205",
+   "4005"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 4,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "What fraction of the figure does the shaded part represent if a pizza is divided into 4 equal parts and we eat 1 part?",
+  "options": [
+   "1/2",
+   "1/4",
+   "3/4",
+   "4/4"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Three packages have 5 cookies each. The total number of cookies can be expressed as:",
+  "options": [
+   "5",
+   "5 + 5 + 5",
+   "3 + 5",
+   "3 + 3 +"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "If the clock shows 3 o'clock and 30 minutes pass, what time is it?",
+  "options": [
+   "3:30",
+   "3:45",
+   "3:15",
+   "4:00"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 5,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Ana goes out to play at 4:00 p.m. and returns home at 5:00 p.m. How long was she playing?",
+  "options": [
+   "30 minutos",
+   "2 horas",
+   "15 minutos",
+   "60 minutos"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 5,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "What is the value of the digit 7 in the number 3,742?",
+  "options": [
+   "7",
+   "70",
+   "700",
+   "7,000"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 5,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which object is most like a cylinder?",
+  "options": [
+   "Ball",
+   "Dice",
+   "Can",
+   "Pyramid"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 6,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which solid shape can roll easily?",
+  "options": [
+   "Cube",
+   "Sphere",
+   "Pyramid",
+   "Rectangular prism"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 6,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which unit is best for measuring the length of a pencil?",
+  "options": [
+   "Kilometers",
+   "Meters",
+   "Centimeters",
+   "Liters"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which unit is best for measuring the distance between two cities?",
+  "options": [
+   "Centimeters",
+   "Meters",
+   "Kilometers",
+   "Grams"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which object is heavier?",
+  "options": [
+   "A feather",
+   "A pencil",
+   "A school bag",
+   "A sheet of paper"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which unit is used to measure liquid?",
+  "options": [
+   "Liters",
+   "Kilograms",
+   "Meters",
+   "Centimeters"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 8,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "If a movie starts at 2:00 p.m. and ends at 3:30 p.m., how long is the movie?",
+  "options": [
+   "30 minutes",
+   "1 hour",
+   "1 hour and 30 minutes",
+   "2 hours"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 8,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which number does NOT belong to the pattern?\n2, 4, 6, 9, 10",
+  "options": [
+   "2",
+   "6",
+   "9",
+   "10"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 8,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which statement is always true?",
+  "options": [
+   "A square has 3 sides.",
+   "A triangle has 4 vertices.",
+   "An even number can be divided by 2 with no remainder.",
+   "A circle has 4 straight sides."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 9,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Four students choose their favorite fruit:\nAna: Apple\nBen: Banana\nCamila: Apple\nDavid: Orange\nWhich fruit is the most popular?",
+  "options": [
+   "Apple",
+   "Banana",
+   "Orange",
+   "They are all equal."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 9,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "A bar graph shows that 12 students like soccer, 8 like basketball, and 5 like tennis. How many students like soccer or basketball altogether?",
+  "options": [
+   "15",
+   "18",
+   "20",
+   "25"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 10,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "A cube has how many faces?",
+  "options": [
+   "4",
+   "6",
+   "8",
+   "12"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which fraction is greater?",
+  "options": [
+   "1/4",
+   "1/2",
+   "They are equal.",
+   "0"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which number is even?",
+  "options": [
+   "17",
+   "23",
+   "31",
+   "48"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 11,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Ana had 52 marbles and gave 17 to her brother. How many marbles does she have left?",
+  "options": [
+   "45",
+   "35",
+   "25",
+   "37"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 11,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "If a pack has 6 colors, how many colors are there in 8 identical packs?",
+  "options": [
+   "42",
+   "54",
+   "48",
+   "56"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 11,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Carlos bought 3 juices for $400 each. If he paid with a $2,000 bill, how much change did he get?",
+  "options": [
+   "$800",
+   "$600",
+   "$1,200",
+   "$400"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 12,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "There are 4 bags with 3 candies in each bag. Which repeated addition shows the total number of candies?",
+  "options": [
+   "4+ 3",
+   "3 + 3 + 3 + 3",
+   "3 + 4",
+   "4 + 4 + 4"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 12,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Mia has 24 stickers and gets 15 more. How many stickers does she have now?",
+  "options": [
+   "39",
+   "49",
+   "35",
+   "29"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 13,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "What is the value of the digit 5 in the number 25,316?",
+  "options": [
+   "5",
+   "50",
+   "5,000",
+   "500"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 13,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "There are 32 birds in a tree. 14 birds fly away. How many birds are left?",
+  "options": [
+   "18",
+   "22",
+   "28",
+   "16"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 13,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "What is the value of the digit 7 in 3,742?",
+  "options": [
+   "7 ones",
+   "7 tens",
+   "7 hundreds",
+   "7 thousands"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 14,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "In the number 25,316, which place is the digit 5 in?",
+  "options": [
+   "Ones",
+   "Tens",
+   "Hundreds",
+   "Thousands"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 14,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which digit is in the hundreds place in 4,582?",
+  "options": [
+   "4",
+   "5",
+   "8",
+   "2"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 14,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which digit is in the tens place in 7,349?",
+  "options": [
+   "7",
+   "3",
+   "4",
+   "9"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 15,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "In the number 14,205, what is the value of the digit 4?",
+  "options": [
+   "4 ones",
+   "4 tens",
+   "4 hundreds",
+   "4 thousands"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 15,
+  "grade": "2 - 3",
+  "subject": "Maths",
+  "question": "Which digit is in the thousands place in 6,214?",
+  "options": [
+   "6",
+   "2",
+   "1",
+   "4"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 1,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which part of a plant absorbs water from the soil?",
+  "options": [
+   "Flower",
+   "Root",
+   "Leaf",
+   "Fruit"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "What do humans need to breathe?",
+  "options": [
+   "Oxygen",
+   "Sugar",
+   "Salt",
+   "Water vapor"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 2,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which animal is a mammal?",
+  "options": [
+   "Frog",
+   "Eagle",
+   "Dog",
+   "Fish"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 3,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "What is the main source of light and heat for Earth?",
+  "options": [
+   "The Moon",
+   "The Sun",
+   "Mars",
+   "The stars"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "What happens to ice when it gets warm?",
+  "options": [
+   "It freezes",
+   "It melts",
+   "It disappears immediately",
+   "It becomes heavier"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which sense do we use to hear sounds?",
+  "options": [
+   "Sight",
+   "Touch",
+   "Hearing",
+   "Smell"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 5,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which material is attracted to a magnet?",
+  "options": [
+   "Wood",
+   "Plastic",
+   "Iron",
+   "Glass"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 6,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "What force pulls objects toward Earth?",
+  "options": [
+   "Magnetism",
+   "Gravity",
+   "Light",
+   "Heat"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 7,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which state of matter has a fixed shape?",
+  "options": [
+   "Solid",
+   "Liquid",
+   "Gas",
+   "Vapor"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 7,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "What do plants need to make their own food?",
+  "options": [
+   "Sunlight",
+   "Plastic",
+   "Metal",
+   "Sand only"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 8,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which object produces its own light?",
+  "options": [
+   "Mirror",
+   "Moon",
+   "Sun",
+   "Book"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 9,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "What happens when you push a toy car?",
+  "options": [
+   "It moves",
+   "It becomes invisible",
+   "It melts",
+   "It changes into water"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 10,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which one is a liquid?",
+  "options": [
+   "Rock",
+   "Water",
+   "Ice",
+   "Air"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which organ pumps blood around your body?",
+  "options": [
+   "Brain",
+   "Lungs",
+   "Heart",
+   "Stomach"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 11,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "What is water made of?",
+  "options": [
+   "Only oxygen",
+   "Hydrogen and oxygen",
+   "Iron and oxygen",
+   "Carbon and iron"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 12,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which planet do we live on?",
+  "options": [
+   "Mars",
+   "Venus",
+   "Earth",
+   "Jupiter"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 13,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "What happens when water is placed in a freezer?",
+  "options": [
+   "It boils",
+   "It freezes",
+   "It becomes gas immediately",
+   "It disappears"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 13,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which object can reflect light?",
+  "options": [
+   "Mirror",
+   "Sponge",
+   "Paper towel",
+   "Soil"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 14,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Which of these is a gas?",
+  "options": [
+   "Water",
+   "Ice",
+   "Oxygen",
+   "Rock"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 15,
+  "grade": "2 - 3",
+  "subject": "Science",
+  "question": "Why do we see objects?",
+  "options": [
+   "Because they make sound",
+   "Because light reaches our eyes",
+   "Because they produce water",
+   "Because gravity pushes them"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which number is the greatest?",
+  "options": [
+   "45,678",
+   "45,876",
+   "45,786",
+   "45,687"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "What is the value of the digit 7 in 47,325?",
+  "options": [
+   "7",
+   "70",
+   "700",
+   "7,000"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 1,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which expression has the same value as 6 × 25?",
+  "options": [
+   "6 × 20 + 5",
+   "6 × 20 + 6 × 5",
+   "6 × 25 + 5",
+   "25 + 6"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 2,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which fraction is equivalent to 1/2?",
+  "options": [
+   "2/3",
+   "2/4",
+   "3/5",
+   "4/6"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 2,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "What is 2/5 + 1/5?",
+  "options": [
+   "2/10",
+   "3/5",
+   "3/10",
+   "1/5"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 3,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A pizza is divided into 8 equal pieces. Four pieces are eaten. What fraction remains?",
+  "options": [
+   "1/4",
+   "3/4",
+   "1/2",
+   "5/8"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 3,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which decimal is equal to 1/2?",
+  "options": [
+   "0.2",
+   "0.25",
+   "0.05",
+   "0.5"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 4,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which number is greater?",
+  "options": [
+   "0.45",
+   "0.54",
+   "0.405",
+   "0.504"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A square has a side length of 7 cm. What is its perimeter?",
+  "options": [
+   "14 cm",
+   "21 cm",
+   "28 cm",
+   "49 cm"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 5,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which statement is always true about a square?",
+  "options": [
+   "It has only two equal sides.",
+   "It has four equal sides and four right angles.",
+   "It has three sides.",
+   "It has no right angles."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 5,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which unit is most appropriate for measuring the mass of a watermelon?",
+  "options": [
+   "Milligrams",
+   "Grams",
+   "Kilograms",
+   "Liters"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 6,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A movie starts at 2:45 p.m. and ends at 4:15 p.m. How long does it last?",
+  "options": [
+   "1 hour",
+   "1 hour 15 minutes",
+   "1 hour 30 minutes",
+   "2 hours"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 6,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "What is the next number?\n4, 8, 12, 16, ___",
+  "options": [
+   "18",
+   "20",
+   "22",
+   "24"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 6,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "If 4 × n = 28, what is n?",
+  "options": [
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A survey asks students about their favorite sport:\nSoccer: 12\nBasketball: 8\nSwimming: 5\nTennis: 5\nWhich sport is the most popular?",
+  "options": [
+   "Soccer",
+   "Basketball",
+   "Swimming",
+   "Tennis"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 7,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which graph is most useful for comparing the number of students who prefer different sports?",
+  "options": [
+   "Bar graph",
+   "Line segment",
+   "Circle only",
+   "Number line"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 8,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A number is greater than 40 and less than 50. It is even and divisible by 3. What is the number?",
+  "options": [
+   "43",
+   "44",
+   "46",
+   "42"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 8,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A number is multiplied by 5 and the result is 45. What is the number?",
+  "options": [
+   "5",
+   "8",
+   "9",
+   "10"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 9,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "What is the name of the polygon that has exactly 5 sides?",
+  "options": [
+   "Cuadrado",
+   "Hexágono",
+   "Pentágono",
+   "Triángulo"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 9,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Lucas had 150 pesos and spent 65 on a game. How much money does he have left?",
+  "options": [
+   "75",
+   "85",
+   "95",
+   "115"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "What is the name of the top number in a fraction that indicates the parts we take?",
+  "options": [
+   "Numerator",
+   "Denominator",
+   "Whole number",
+   "Fraction bar"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 10,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "What instrument is used to measure angles?",
+  "options": [
+   "The ruler",
+   "The compass",
+   "The protractor",
+   "The set square"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 11,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "What is the perimeter of a rectangle that is 8 cm long and 5 cm wide?",
+  "options": [
+   "13 cm",
+   "26 cm",
+   "40 cm",
+   "18 cm"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 11,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "María ate 2/10 of a pizza for lunch and 3/10 for dinner. What fraction of the pizza did she eat in total?",
+  "options": [
+   "1/4",
+   "1/3",
+   "1/2",
+   "3/10"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 11,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A square-shaped piece of land has a side length of 12 m. What is its area?",
+  "options": [
+   "144 m²",
+   "84 m²",
+   "96 m²",
+   "95 m²"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 12,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "There are 240 books in a library. 1/8 of the books are science books. How many science books are there?",
+  "options": [
+   "60",
+   "80",
+   "90",
+   "30"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 12,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "At a movie screening, there are 54 men, 74 women, and 12 children. How many people are there in total at the movie theatre?",
+  "options": [
+   "130",
+   "160",
+   "150",
+   "140"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 13,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "What type of angle is exactly 90°?",
+  "options": [
+   "Acute angle",
+   "Right angle",
+   "Obtuse angle",
+   "Straight angle"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 13,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Which angle is acute?",
+  "options": [
+   "45°",
+   "90°",
+   "120°",
+   "180°"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 14,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "Two angles make a right angle. One angle is 35°. What is the other angle?",
+  "options": [
+   "45°",
+   "50°",
+   "55°",
+   "65°"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 14,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A fair six-sided die has numbers 1 to 6. What is the probability of rolling a 6?",
+  "options": [
+   "1 out of 2",
+   "1 out of 3",
+   "1 out of 6",
+   "6 out of 6"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 15,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A spinner has 4 equal sections: red, blue, green, and yellow. What is the probability of landing on blue?",
+  "options": [
+   "1/2",
+   "1/3",
+   "1/4",
+   "4/4"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 15,
+  "grade": "4 - 5",
+  "subject": "Maths",
+  "question": "A bag contains only red balls. What is the probability of choosing a blue ball?",
+  "options": [
+   "Certain",
+   "Likely",
+   "Unlikely",
+   "Impossible"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 1,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "What process allows plants to make their own food?",
+  "options": [
+   "Digestion",
+   "Photosynthesis",
+   "Respiration",
+   "Evaporation"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which organ is mainly responsible for breathing?",
+  "options": [
+   "Heart",
+   "Stomach",
+   "Lungs",
+   "Brain"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 2,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "What is the boiling point of water at sea level?",
+  "options": [
+   "0°C",
+   "50°C",
+   "100°C",
+   "200°C"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 3,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which force slows down a moving object when two surfaces rub together?",
+  "options": [
+   "Gravity",
+   "Friction",
+   "Magnetism",
+   "Buoyancy"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which material is usually a good conductor of electricity?",
+  "options": [
+   "Copper",
+   "Rubber",
+   "Wood",
+   "Plastic"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 4,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "What happens when water evaporates?",
+  "options": [
+   "Liquid becomes gas",
+   "Gas becomes liquid",
+   "Solid becomes liquid",
+   "Liquid becomes solid"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 5,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which of these is a renewable source of energy?",
+  "options": [
+   "Coal",
+   "Oil",
+   "Solar energy",
+   "Natural gas"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 6,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "What is the basic unit of life?",
+  "options": [
+   "Atom",
+   "Cell",
+   "Organ",
+   "Tissue"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 7,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which planet is known as the Red Planet?",
+  "options": [
+   "Venus",
+   "Mars",
+   "Jupiter",
+   "Saturn"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 7,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which change is reversible?",
+  "options": [
+   "Burning paper",
+   "Cooking an egg",
+   "Melting ice",
+   "Rusting iron"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 8,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "What happens to shadows when an object moves closer to a light source?",
+  "options": [
+   "They usually become larger",
+   "They disappear",
+   "They become colder",
+   "They become heavier"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 9,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which substance is necessary for combustion?",
+  "options": [
+   "Oxygen",
+   "Sand",
+   "Salt",
+   "Helium"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 10,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which simple machine is a seesaw?",
+  "options": [
+   "Pulley",
+   "Lever",
+   "Wheel and axle",
+   "Screw"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "What is the main function of the skeleton?",
+  "options": [
+   "Produce sunlight",
+   "Support and protect the body",
+   "Digest food",
+   "Pump blood"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 11,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which of these is a mixture?",
+  "options": [
+   "Pure oxygen",
+   "Gold",
+   "Salt water",
+   "Carbon dioxide"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 12,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "What causes day and night?",
+  "options": [
+   "Earth's rotation",
+   "Earth's revolution around the Sun",
+   "The Moon's rotation",
+   "The Sun moving around Earth"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 13,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which type of energy does a moving bicycle have?",
+  "options": [
+   "Chemical energy",
+   "Kinetic energy",
+   "Nuclear energy",
+   "Sound energy only"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 13,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "What happens when two north magnetic poles are brought together?",
+  "options": [
+   "They attract",
+   "They repel",
+   "They melt",
+   "Nothing happens"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 14,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which gas do plants take in during photosynthesis?",
+  "options": [
+   "Oxygen",
+   "Hydrogen",
+   "Carbon dioxide",
+   "Nitrogen"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 15,
+  "grade": "4 - 5",
+  "subject": "Science",
+  "question": "Which method can separate sand from water?",
+  "options": [
+   "Filtration",
+   "Magnetism",
+   "Freezing only",
+   "Combustion"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 1,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "A class has 30 students. 2/5 of the students are girls. How many boys are in the class?",
+  "options": [
+   "10",
+   "12",
+   "15",
+   "18"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 1,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "A rectangle has an area of 72 cm². If its width is 8 cm, what is its length?",
+  "options": [
+   "7 cm",
+   "8 cm",
+   "9 cm",
+   "10 cm"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 1,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which measure tells us the most frequently occurring value in a data set?",
+  "options": [
+   "Mean",
+   "Median",
+   "Mode",
+   "Range"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 2,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which pair of lines will never intersect?",
+  "options": [
+   "Parallel lines",
+   "Perpendicular lines",
+   "Intersecting lines",
+   "Curved lines"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 2,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "A triangle has angles of 50° and 60°. What is the third angle?",
+  "options": [
+   "60°",
+   "70°",
+   "80°",
+   "90°"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 3,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "What is 25% of 80?",
+  "options": [
+   "10",
+   "15",
+   "20",
+   "25"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 3,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "What is 3²+4²?",
+  "options": [
+   "12",
+   "20",
+   "25",
+   "49"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 4,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Why do two angles on a straight line add up to 180°?",
+  "options": [
+   "Because a straight angle measures 180°.",
+   "Because all angles are equal.",
+   "Because they are complementary.",
+   "Because a line has two endpoints."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 4,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which property is shown by the equation?\n(2+3)+4 = 2+(3+4)",
+  "options": [
+   "Commutative Property",
+   "Identity Property",
+   "Associative Property",
+   "Distributive Property"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 5,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Why is 24 divisible by 3?",
+  "options": [
+   "Because 2 + 4 = 6, and 6 is divisible by 3.",
+   "Because 24 is an odd number.",
+   "Because 3 × 7 = 24.",
+   "Because 24 is prime."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 5,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "A student says: \"All squares are rectangles.\" Is this statement correct?",
+  "options": [
+   "No, because squares have equal sides.",
+   "Yes, because a square has four right angles and satisfies the definition of a rectangle.",
+   "No, because rectangles cannot have equal sides.",
+   "Yes, because every rectangle is a square."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 6,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which statement is always true about the angles of a quadrilateral?",
+  "options": [
+   "Their sum is 180°.",
+   "Their sum is 270°.",
+   "Their sum is 360°.",
+   "Their sum is 450°."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 6,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Two angles are complementary. One angle is 35°. What is the other angle?",
+  "options": [
+   "45°",
+   "55°",
+   "65°",
+   "145°"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 7,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "How many centimeters are there in 1 meter?",
+  "options": [
+   "10 cm",
+   "50 cm",
+   "100 cm",
+   "1,000 cm"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which statement is correct?",
+  "options": [
+   "1 meter = 10 centimeters",
+   "1 meter = 100 centimeters",
+   "1 meter = 1,000 centimeters",
+   "1 meter = 0.1 centimeters"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 8,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "A student calculates the volume of a rectangular prism using l+w+h. What is the mistake?",
+  "options": [
+   "The student should multiply the three dimensions.",
+   "The student should add only the length and width.",
+   "The student should divide by 3.",
+   "There is no mistake."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 8,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which number is a perfect square?",
+  "options": [
+   "18",
+   "20",
+   "25",
+   "30"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 9,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "What does PEMDAS help us determine?",
+  "options": [
+   "The size of a triangle",
+   "The order of operations",
+   "The perimeter of a figure",
+   "The value of a variable"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 9,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which rule is represented by:\naᵐ×aⁿ = aᵐ⁺ⁿ",
+  "options": [
+   "Product of Powers Rule",
+   "Power of a Power Rule",
+   "Quotient of Powers Rule",
+   "Zero Exponent Rule"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 10,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which statement best describes a logarithm?",
+  "options": [
+   "It tells us what exponent is needed to obtain a number.",
+   "It always gives a negative number.",
+   "It is another name for multiplication.",
+   "It is the same as a square root."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 10,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "A number is multiplied by 3 and then 5 is added. The result is 20. What is the number?",
+  "options": [
+   "3",
+   "5",
+   "7",
+   "15"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 11,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "A temperature changes from -3°C to 8°C. What is the total change in temperature?",
+  "options": [
+   "5°C",
+   "8°C",
+   "11°C",
+   "13°C"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 11,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Fair spinner has 4 equal sections: red, blue, green and yellow. What is the probability of NOT landing on blue?",
+  "options": [
+   "1/4",
+   "1/2",
+   "3/4",
+   "1"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 12,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "The following numbers represent the number of books read by five students:\n2, 4, 6, 6, 12\nWhich statement is correct?",
+  "options": [
+   "The mean is 6 and the mode is 6.",
+   "The median is 6 and the mode is 12.",
+   "The mean is 12 and the median is 6.",
+   "The range is 6."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 12,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "If 4 notebooks cost $20, how much do 7 notebooks cost at the same price?",
+  "options": [
+   "$28",
+   "$30",
+   "$35",
+   "$40"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 13,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "A student calculates:\n4+3×2 = 24\nIs the answer correct?",
+  "options": [
+   "Yes, because addition comes first.",
+   "Yes, because multiplication comes first.",
+   "No, the answer is 14.",
+   "No, the answer is 10."
+  ],
+  "correct": 3
+ },
+ {
+  "level": 13,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "What is 7⁰?",
+  "options": [
+   "0",
+   "1",
+   "7",
+   "70"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 14,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "What is the relationship between exponents and logarithms?",
+  "options": [
+   "They are opposite operations.",
+   "They are unrelated operations.",
+   "Logarithms are used only with addition.",
+   "Exponents and logarithms always give the same number."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 14,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which property is represented by?\nlog_b(MN) = log_b M + log_b N",
+  "options": [
+   "Quotient Property",
+   "Product Property",
+   "Power Property",
+   "Identity Property"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 15,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which statement is ALWAYS true?",
+  "options": [
+   "log_b(M+N) = log_b M + log_b N",
+   "log_b(MN) = log_b M + log_b N",
+   "log_b(M-N) = log_b M - log_b N",
+   "log_b(M / N) = log_b M + log_b N"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 15,
+  "grade": "6 - 7",
+  "subject": "Maths",
+  "question": "Which statement best explains why logarithms are useful?",
+  "options": [
+   "They allow us to find an unknown exponent.",
+   "They always make numbers smaller.",
+   "They are another way to multiply numbers.",
+   "They can only be used with base 10."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 1,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which structure controls most activities of a cell?",
+  "options": [
+   "Cell wall",
+   "Nucleus",
+   "Cytoplasm",
+   "Vacuole"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which particle has a negative electrical charge?",
+  "options": [
+   "Proton",
+   "Neutron",
+   "Electron",
+   "Nucleus"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 2,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What is the chemical symbol for oxygen?",
+  "options": [
+   "Ox",
+   "O",
+   "C",
+   "H"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 3,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which state of matter has neither a fixed shape nor a fixed volume?",
+  "options": [
+   "Solid",
+   "Liquid",
+   "Gas",
+   "Crystal"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 4,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What is density?",
+  "options": [
+   "Mass divided by volume",
+   "Volume divided by mass",
+   "Force divided by time",
+   "Distance divided by time"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 4,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which organelle is known as the powerhouse of the cell?",
+  "options": [
+   "Nucleus",
+   "Ribosome",
+   "Mitochondrion",
+   "Cell wall"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 5,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What type of energy is stored in food?",
+  "options": [
+   "Chemical energy",
+   "Sound energy",
+   "Nuclear energy",
+   "Light energy"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 6,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What is the pH of a neutral solution at room temperature?",
+  "options": [
+   "0",
+   "5",
+   "7",
+   "14"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which method separates a dissolved solid from a solution by removing the solvent?",
+  "options": [
+   "Filtration",
+   "Evaporation",
+   "Magnetism",
+   "Sieving"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 7,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What is the unit of force in the International System?",
+  "options": [
+   "Joule",
+   "Watt",
+   "Newton",
+   "Pascal"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 8,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which process changes a gas into a liquid?",
+  "options": [
+   "Melting",
+   "Freezing",
+   "Condensation",
+   "Sublimation"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 9,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What happens to particles when a substance is heated?",
+  "options": [
+   "They usually move faster",
+   "They stop moving",
+   "They disappear",
+   "They become weightless"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 10,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which blood cells help defend the body against pathogens?",
+  "options": [
+   "Red blood cells",
+   "White blood cells",
+   "Platelets",
+   "Plasma cells only"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What is the acceleration due to gravity near Earth's surface?",
+  "options": [
+   "1.8 m/s²",
+   "5.0 m/s²",
+   "9.8 m/s²",
+   "20 m/s²"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 11,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which of these is a chemical change?",
+  "options": [
+   "Melting ice",
+   "Cutting paper",
+   "Rusting iron",
+   "Dissolving sugar"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 12,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which type of bond involves sharing electrons?",
+  "options": [
+   "Ionic bond",
+   "Covalent bond",
+   "Magnetic bond",
+   "Gravitational bond"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 13,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What is the speed of an object that travels 100 m in 20 s?",
+  "options": [
+   "2 m/s",
+   "5 m/s",
+   "20 m/s",
+   "2000 m/s"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 13,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which organ removes many wastes from the blood?",
+  "options": [
+   "Kidney",
+   "Heart",
+   "Lung only",
+   "Stomach"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 14,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "What happens when an acid reacts with a base?",
+  "options": [
+   "Neutralization can occur",
+   "Only freezing occurs",
+   "A magnet is produced",
+   "Gravity disappears"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 15,
+  "grade": "6 - 7",
+  "subject": "Science",
+  "question": "Which factor can increase the rate of many chemical reactions?",
+  "options": [
+   "Lowering temperature",
+   "Increasing temperature",
+   "Removing all reactants",
+   "Freezing the reactants"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which property is used in the equation below? 5(x + 2) = 5x + 10",
+  "options": [
+   "Commutative property",
+   "Associative property",
+   "Distributive property",
+   "Identity property"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 1,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which statement is always true?",
+  "options": [
+   "The square of every number is negative.",
+   "The square of every integer is positive.",
+   "The square of a non-zero number is positive.",
+   "The square of every odd number is even."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 1,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Two rectangles have the same area. Can they have different dimensions?",
+  "options": [
+   "No, rectangles with the same area must have the same dimensions.",
+   "Yes, different pairs of dimensions can produce the same area.",
+   "No, because area determines the perimeter.",
+   "Yes, but only if both rectangles are squares."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 2,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which condition is necessary to use the Pythagorean theorem?",
+  "options": [
+   "The triangle must be equilateral.",
+   "The triangle must be isosceles.",
+   "The triangle must be a right triangle.",
+   "The triangle must have three equal sides."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 2,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A student says: “The longest side of any triangle is always the hypotenuse.” Is the student correct?",
+  "options": [
+   "Yes, for every triangle.",
+   "No, the hypotenuse exists only in a right triangle.",
+   "Yes, because every triangle has one hypotenuse.",
+   "No, the shortest side is the hypotenuse."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 3,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Why can similar triangles be used to calculate the height of a tree using its shadow?",
+  "options": [
+   "Because all triangles have the same area.",
+   "Because the triangles formed by the tree and its shadow can have proportional corresponding sides.",
+   "Because shadows always have the same length as objects.",
+   "Because all right triangles are congruent."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 3,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A line parallel to one side of a triangle intersects the other two sides. What mathematical idea can be used to compare the resulting segments?",
+  "options": [
+   "Pythagorean theorem",
+   "Proportionality and similarity",
+   "Circumference",
+   "Area of a circle"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which statement describes a key idea of Thales' theorem in a triangle?",
+  "options": [
+   "A line parallel to one side creates proportional segments on the other two sides.",
+   "Every triangle has three equal sides.",
+   "The longest side is always twice the shortest side.",
+   "Every triangle has a right angle."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 4,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "What does it mean if an equation has no solution?",
+  "options": [
+   "There are no values of the variable that make the equation true.",
+   "Every number is a solution.",
+   "The variable must be zero.",
+   "The equation is always true."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 5,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Two lines intersect at exactly one point. What does that point represent in a system of two linear equations?",
+  "options": [
+   "An impossible solution",
+   "The common solution to both equations",
+   "The y-intercept only",
+   "The slope of both lines"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 5,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A system of two linear equations represents two parallel lines. What can we conclude?",
+  "options": [
+   "The system has exactly one solution.",
+   "The system has two solutions.",
+   "The system has no solution.",
+   "Every point is a solution."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 6,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Why is 2³ × 2² = 2⁵?",
+  "options": [
+   "Because the bases are added.",
+   "Because the exponents are added when multiplying powers with the same base.",
+   "Because the bases are multiplied.",
+   "Because the exponents are multiplied."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 6,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A cylinder and a cone have the same radius and the same height. How are their volumes related?",
+  "options": [
+   "The cone has twice the volume of the cylinder.",
+   "The cone has the same volume as the cylinder.",
+   "The cone has one-third the volume of the cylinder.",
+   "The cylinder has one-third the volume of the cone."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which measure tells us the difference between the greatest and the smallest value in a data set?",
+  "options": [
+   "Mean",
+   "Median",
+   "Range",
+   "Mode"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A fair die is rolled once. Which statement is correct?",
+  "options": [
+   "Rolling a 6 is more likely than rolling a 1.",
+   "Rolling an even number is impossible.",
+   "Each number from 1 to 6 has the same probability.",
+   "Rolling a 3 has twice the probability of rolling a 6."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 8,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "If an event has a probability of 1, what does this mean?",
+  "options": [
+   "The event is impossible.",
+   "The event is unlikely.",
+   "The event is certain.",
+   "The event has a 1% chance of happening."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 8,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A student says: “Every square is a rectangle.” Is this statement mathematically correct?",
+  "options": [
+   "No, because squares have four equal sides.",
+   "Yes, because a square satisfies the properties of a rectangle.",
+   "No, because rectangles cannot have equal sides.",
+   "Yes, but only when the square is large."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 9,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which statement about negative numbers is always true?",
+  "options": [
+   "The product of two negative numbers is negative.",
+   "The product of two negative numbers is positive.",
+   "The sum of two negative numbers is positive.",
+   "A negative number squared is always negative."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 9,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A product is discounted by 25%. What percentage of the original price does the customer pay?",
+  "options": [
+   "25%",
+   "50%",
+   "75%",
+   "125%"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 10,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "The relative frequency of students who prefer basketball is 0.40. What does this mean?",
+  "options": [
+   "40 students prefer basketball.",
+   "40% of the students prefer basketball.",
+   "Basketball was chosen 0.40 times.",
+   "60% of the students prefer basketball."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which situation represents a direct proportion?",
+  "options": [
+   "The more workers there are, the less time is needed to complete the same job.",
+   "The more kilograms of apples you buy, the greater the total cost, assuming a constant price per kilogram.",
+   "The faster you travel, the less distance you cover in the same amount of time.",
+   "The more people share a pizza, the more pizza each person receives."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 11,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which situation represents inverse proportion?",
+  "options": [
+   "More hours worked means more money earned at a constant hourly rate.",
+   "More products purchased means a greater total cost at a constant unit price.",
+   "More workers completing the same task means less time is required, assuming equal productivity.",
+   "More distance traveled means more fuel used at a constant rate."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 11,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "In which quadrant is the point (-3, 5) located?",
+  "options": [
+   "Quadrant I",
+   "Quadrant II",
+   "Quadrant III",
+   "Quadrant IV"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 12,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Point A is (2, 3). It is translated 4 units to the right. What are the new coordinates?",
+  "options": [
+   "(6, 3)",
+   "(2, 7)",
+   "(-2, 3)",
+   "(6, 7)"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 12,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "What is the sum of the interior angles of a pentagon?",
+  "options": [
+   "360°",
+   "540°",
+   "720°",
+   "900°"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 13,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A regular polygon has all its sides equal. What else must be true?",
+  "options": [
+   "All its interior angles are equal.",
+   "All its diagonals are equal.",
+   "It must have four sides.",
+   "It must be a triangle."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 13,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "What does relative frequency represent?",
+  "options": [
+   "The total number of observations.",
+   "The number of times a category occurs compared with the total number of observations.",
+   "The largest value in a data set.",
+   "The difference between the largest and smallest values."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 14,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which method is especially useful when a quadratic equation can be written as a product of two factors?",
+  "options": [
+   "Factoring",
+   "Measuring",
+   "Substitution only",
+   "Pythagorean theorem"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 14,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Which statement explains why the product of two even numbers is always even?",
+  "options": [
+   "An even number can be written as 2n.",
+   "An even number can be written as 2n+1.",
+   "All even numbers are prime.",
+   "All products are odd."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 15,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "A student's score increases from 60 to 72. What is the percentage increase?",
+  "options": [
+   "12%",
+   "15%",
+   "20%",
+   "25%"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 15,
+  "grade": "8 - 9",
+  "subject": "Maths",
+  "question": "Fair spinner has 4 equal sections: red, blue, green and yellow. What is the probability of NOT landing on blue?",
+  "options": [
+   "1/4",
+   "1/2",
+   "3/4",
+   "1"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 1,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "What is the basic unit of life?",
+  "options": [
+   "Atom",
+   "Cell",
+   "Organ",
+   "Tissue"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which organ pumps blood through the body?",
+  "options": [
+   "Brain",
+   "Heart",
+   "Lung",
+   "Stomach"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 2,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which gas do humans need to breathe?",
+  "options": [
+   "Oxygen",
+   "Carbon dioxide",
+   "Hydrogen",
+   "Helium"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 3,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "What is the chemical symbol for water?",
+  "options": [
+   "CO₂",
+   "O₂",
+   "H₂O",
+   "NaCl"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 4,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "What happens to water when it reaches 100°C at sea level?",
+  "options": [
+   "It freezes",
+   "It boils",
+   "It becomes solid",
+   "It disappears"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which force pulls objects toward Earth?",
+  "options": [
+   "Friction",
+   "Gravity",
+   "Magnetism",
+   "Electricity"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 5,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which of these is an acid?",
+  "options": [
+   "Lemon juice",
+   "Soap",
+   "Baking soda",
+   "Salt water"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 6,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "What is the pH of pure water approximately?",
+  "options": [
+   "1",
+   "5",
+   "7",
+   "14"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which particle has a negative charge?",
+  "options": [
+   "Proton",
+   "Neutron",
+   "Electron",
+   "Nucleus"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which material is a good conductor of electricity?",
+  "options": [
+   "Rubber",
+   "Plastic",
+   "Copper",
+   "Wood"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 8,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "What type of energy does a moving bicycle have?",
+  "options": [
+   "Kinetic energy",
+   "Chemical energy",
+   "Nuclear energy",
+   "Solar energy"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 9,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which planet is known as the Red Planet?",
+  "options": [
+   "Venus",
+   "Mars",
+   "Jupiter",
+   "Saturn"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "What is the speed of an object that travels 20 meters in 4 seconds?",
+  "options": [
+   "2 m/s",
+   "4 m/s",
+   "5 m/s",
+   "10 m/s"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 10,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which process changes a liquid into a gas?",
+  "options": [
+   "Freezing",
+   "Melting",
+   "Condensation",
+   "Evaporation"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 11,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which organ helps humans breathe?",
+  "options": [
+   "Heart",
+   "Lungs",
+   "Kidney",
+   "Stomach"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 12,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "What happens when an acid reacts with a base?",
+  "options": [
+   "Neutralization can occur",
+   "It always freezes",
+   "It becomes a metal",
+   "Nothing happens"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 13,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which wave allows us to hear sounds?",
+  "options": [
+   "Sound wave",
+   "Light wave",
+   "Radio wave",
+   "X-ray"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 13,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which of these is a chemical change?",
+  "options": [
+   "Cutting paper",
+   "Melting ice",
+   "Rusting iron",
+   "Breaking glass"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 14,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "What is the unit of force?",
+  "options": [
+   "Joule",
+   "Watt",
+   "Newton",
+   "Meter"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 15,
+  "grade": "8 - 9",
+  "subject": "Science",
+  "question": "Which gas do plants use during photosynthesis?",
+  "options": [
+   "Oxygen",
+   "Carbon dioxide",
+   "Hydrogen",
+   "Nitrogen"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "What is the sum of the interior angles of a triangle?",
+  "options": [
+   "90°",
+   "180°",
+   "270°",
+   "360°"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Two angles are supplementary. One angle measures 65°. What is the measure of the other angle?",
+  "options": [
+   "25°",
+   "105°",
+   "115°",
+   "125°"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 2,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "A triangle has side lengths of 7 cm, 24 cm, and 25 cm. Which statement is correct?",
+  "options": [
+   "It is an equilateral triangle.",
+   "It is an isosceles triangle.",
+   "It is a scalene triangle.",
+   "It is an obtuse triangle."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 2,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "If sin(θ) = 1/2, which angle could be θ?",
+  "options": [
+   "30°",
+   "45°",
+   "60°",
+   "90°"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 3,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which trigonometric function is defined as opposite/hypotenuse?",
+  "options": [
+   "Cosine",
+   "Tangent",
+   "Sine",
+   "Secant"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 3,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which graph represents a linear function?",
+  "options": [
+   "A straight line",
+   "A circle",
+   "A parabola",
+   "A curve with two turning points"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 4,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which measure is represented by the middle value of an ordered data set?",
+  "options": [
+   "Mean",
+   "Mode",
+   "Range",
+   "Median"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 4,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "A square and a rectangle have the same perimeter. Which statement is possible?",
+  "options": [
+   "They must have the same area.",
+   "The rectangle can have a different area.",
+   "The rectangle must be a circle.",
+   "The square must have a larger perimeter."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 5,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "If two triangles have the same three side lengths, what can we conclude?",
+  "options": [
+   "They are congruent.",
+   "They are always right triangles.",
+   "They have different areas.",
+   "They must be equilateral."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 5,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which transformation moves a figure without changing its size or shape?",
+  "options": [
+   "Translation",
+   "Enlargement",
+   "Dilation",
+   "Scaling"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 6,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which trigonometric function has a period of 360°?",
+  "options": [
+   "Sine",
+   "Cosine",
+   "Tangent",
+   "Both A and B"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 6,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "What is the maximum value of sin(x)?",
+  "options": [
+   "-1",
+   "0",
+   "1",
+   "2"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 7,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "What does the derivative of a function represent geometrically?",
+  "options": [
+   "The area under the graph",
+   "The slope of the tangent line",
+   "The x-intercept",
+   "The distance between two points"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 7,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "What is the derivative of a constant such as f(x) = 7?",
+  "options": [
+   "7",
+   "1",
+   "0",
+   "x"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 8,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Student A says: \"A negative slope means the graph goes down from left to right.\"\nStudent B says: \"A negative slope means the graph goes up from left to right.\"",
+  "options": [
+   "Student A",
+   "Student B",
+   "Both",
+   "Neither"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 8,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which statement explains why the product of two even numbers is always even?",
+  "options": [
+   "An even number can be written as 2n.",
+   "An even number can be written as 2n+1.",
+   "All even numbers are prime.",
+   "All products are odd."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 9,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "A student says: \"The sum of two odd numbers is always odd.\" Is the student correct?",
+  "options": [
+   "Yes, because odd + odd = odd.",
+   "No, because odd + odd is always even.",
+   "Yes, but only for prime numbers.",
+   "No, because odd + odd is always zero."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 9,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which statement best explains why the Pythagorean Theorem can be used only with right triangles?",
+  "options": [
+   "The theorem relates the sides of a right triangle.",
+   "Every triangle has a hypotenuse.",
+   "Every triangle has a 90° angle.",
+   "All triangles have equal sides."
+  ],
+  "correct": 0
+ },
+ {
+  "level": 10,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Why does a cone have one-third the volume of a cylinder when they have the same base and height?",
+  "options": [
+   "Because a cone has three times the height.",
+   "Because the volume formula for a cone includes the factor 1/3.",
+   "Because the cone has a smaller radius.",
+   "Because a cylinder has three bases."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which method eliminates one variable by adding or subtracting equations?",
+  "options": [
+   "Graphing",
+   "Substitution",
+   "Elimination",
+   "Factoring"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 11,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Two linear equations have no solution. What does this mean about their graphs?",
+  "options": [
+   "They are perpendicular.",
+   "They are parallel and different.",
+   "They are the same line.",
+   "They intersect at two points."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 11,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "If the length of one side of a rectangle is increased by 100%, what can we conclude about its area?",
+  "options": [
+   "It increases by 50%.",
+   "It doubles.",
+   "It does not change.",
+   "It increases by 100 square units."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 12,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "If the dimensions of a rectangular prism are all doubled, what happens to its volume?",
+  "options": [
+   "It doubles.",
+   "It becomes four times as large.",
+   "It becomes six times as large.",
+   "It becomes eight times as large."
+  ],
+  "correct": 3
+ },
+ {
+  "level": 12,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "If an event has a probability of 1, what does this mean?",
+  "options": [
+   "The event is impossible.",
+   "The event is unlikely.",
+   "The event is certain.",
+   "The event has a 1% chance of happening."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 13,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "What does the slope of a line represent?",
+  "options": [
+   "The starting value only",
+   "The rate of change",
+   "The area under the line",
+   "The x-intercept only"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 13,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which situation represents a direct proportion?",
+  "options": [
+   "The more workers there are, the less time is needed to complete the same job.",
+   "The more kilograms of apples you buy, the greater the total cost, assuming a constant price per kilogram.",
+   "The faster you travel, the less distance you cover in the same amount of time.",
+   "The more people share a pizza, the more pizza each person receives."
+  ],
+  "correct": 1
+ },
+ {
+  "level": 14,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Which situation represents inverse proportion?",
+  "options": [
+   "More hours worked means more money earned at a constant hourly rate.",
+   "More products purchased means a greater total cost at a constant unit price.",
+   "More workers completing the same task means less time is required, assuming equal productivity.",
+   "More distance traveled means more fuel used at a constant rate."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 14,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "A student's score increases from 60 to 72. What is the percentage increase?",
+  "options": [
+   "12%",
+   "15%",
+   "20%",
+   "25%"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 15,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "Two linear equations represent exactly the same line. How many solutions does the system have?",
+  "options": [
+   "None",
+   "One",
+   "Two",
+   "Infinitely many"
+  ],
+  "correct": 3
+ },
+ {
+  "level": 15,
+  "grade": "11",
+  "subject": "Maths",
+  "question": "What can you conclude about a point located in Quadrant III?",
+  "options": [
+   "Both coordinates are positive.",
+   "The x-coordinate is positive and the y-coordinate is negative.",
+   "Both coordinates are negative.",
+   "The x-coordinate is negative and the y-coordinate is positive."
+  ],
+  "correct": 2
+ },
+ {
+  "level": 1,
+  "grade": "11",
+  "subject": "Science",
+  "question": "What is the chemical symbol for oxygen?",
+  "options": [
+   "Ox",
+   "O",
+   "C",
+   "H"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 1,
+  "grade": "11",
+  "subject": "Science",
+  "question": "How many protons does a hydrogen atom have?",
+  "options": [
+   "0",
+   "1",
+   "2",
+   "8"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 2,
+  "grade": "11",
+  "subject": "Science",
+  "question": "What is the pH of a neutral solution?",
+  "options": [
+   "0",
+   "3",
+   "7",
+   "14"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 3,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which of these is a base?",
+  "options": [
+   "Lemon juice",
+   "Vinegar",
+   "Soap solution",
+   "Orange juice"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 4,
+  "grade": "11",
+  "subject": "Science",
+  "question": "What is the chemical formula for carbon dioxide?",
+  "options": [
+   "CO",
+   "CO₂",
+   "C₂O",
+   "O₂C₂"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 4,
+  "grade": "11",
+  "subject": "Science",
+  "question": "What happens when an atom loses an electron?",
+  "options": [
+   "It becomes a positive ion",
+   "It becomes a negative ion",
+   "It becomes a neutron",
+   "It disappears"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 5,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which state of matter has a fixed volume but no fixed shape?",
+  "options": [
+   "Solid",
+   "Liquid",
+   "Gas",
+   "Plasma"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 6,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which equation is used to calculate speed?",
+  "options": [
+   "Speed = distance ÷ time",
+   "Speed = time ÷ distance",
+   "Speed = mass × time",
+   "Speed = force × distance"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 7,
+  "grade": "11",
+  "subject": "Science",
+  "question": "A car travels 60 km in 2 hours. What is its average speed?",
+  "options": [
+   "20 km/h",
+   "30 km/h",
+   "60 km/h",
+   "120 km/h"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 7,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which law explains the relationship between voltage, current, and resistance?",
+  "options": [
+   "Boyle's Law",
+   "Ohm's Law",
+   "Newton's Law",
+   "Charles's Law"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 8,
+  "grade": "11",
+  "subject": "Science",
+  "question": "If V = 12 V and R = 4 Ω, what is the current?",
+  "options": [
+   "2 A",
+   "3 A",
+   "4 A",
+   "8 A"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 9,
+  "grade": "11",
+  "subject": "Science",
+  "question": "What type of energy is stored in food?",
+  "options": [
+   "Chemical energy",
+   "Sound energy",
+   "Light energy",
+   "Electrical energy"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 10,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which force opposes motion between two surfaces?",
+  "options": [
+   "Gravity",
+   "Friction",
+   "Magnetism",
+   "Buoyancy"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 10,
+  "grade": "11",
+  "subject": "Science",
+  "question": "What is the unit of energy?",
+  "options": [
+   "Newton",
+   "Joule",
+   "Volt",
+   "Ampere"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 11,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which reaction occurs when one substance breaks down into simpler substances?",
+  "options": [
+   "Synthesis",
+   "Decomposition",
+   "Combustion",
+   "Neutralization"
+  ],
+  "correct": 1
+ },
+ {
+  "level": 12,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which gas is necessary for combustion?",
+  "options": [
+   "Oxygen",
+   "Nitrogen",
+   "Helium",
+   "Carbon dioxide"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 13,
+  "grade": "11",
+  "subject": "Science",
+  "question": "What happens to most chemical reactions when temperature increases?",
+  "options": [
+   "They usually become faster",
+   "They always stop",
+   "They disappear",
+   "They become physical changes"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 13,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which particle is found in the nucleus and has no electrical charge?",
+  "options": [
+   "Electron",
+   "Proton",
+   "Neutron",
+   "Ion"
+  ],
+  "correct": 2
+ },
+ {
+  "level": 14,
+  "grade": "11",
+  "subject": "Science",
+  "question": "What is the acceleration of an object moving at constant velocity?",
+  "options": [
+   "0 m/s²",
+   "1 m/s²",
+   "5 m/s²",
+   "9.8 m/s²"
+  ],
+  "correct": 0
+ },
+ {
+  "level": 15,
+  "grade": "11",
+  "subject": "Science",
+  "question": "Which electromagnetic wave can humans see?",
+  "options": [
+   "Radio waves",
+   "Microwaves",
+   "Visible light",
+   "X-rays"
+  ],
+  "correct": 2
+ }
+]
