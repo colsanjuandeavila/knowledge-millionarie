@@ -61,3 +61,6 @@ Las opciones del selector de grado están en la constante `GRADES`.
 
 - Todavía no hay preguntas para **Pre school - 1**; con ese grado el botón de inicio queda bloqueado.
 - El grado y el curso solo se muestran en pantalla; el juego no guarda ni envía datos.
+- Las preguntas se intercalan entre Matemáticas y Ciencias. Como hay más de Matemáticas que de Ciencias, nunca salen más de 2 seguidas de la misma materia.
+- Todas las pantallas se ajustan al tamaño de la ventana (computador, tableta y celular) sin necesidad de desplazarse.
+- El texto de derechos de autor está en la etiqueta `<footer class="copyright">` de `index.html` y aparece en todas las pantallas.
